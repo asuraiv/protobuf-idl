@@ -1,6 +1,0 @@
-syntax = "proto3";
-
-package com.asuraiv.proto;
-
-option java_package = "com.asuraiv.proto.messages";
-option java_outer_classname = "UserProto";
