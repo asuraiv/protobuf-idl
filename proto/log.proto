@@ -11,6 +11,7 @@ message ActionLog {
 
   string createdBy = 2;
   Action action = 1;
+  string service = 4;
   google.protobuf.Timestamp createdAt = 3;
 }
 
