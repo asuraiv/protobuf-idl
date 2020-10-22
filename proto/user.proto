@@ -5,13 +5,11 @@ package com.asuraiv.proto;
 option java_package = "com.asuraiv.proto.messages";
 option java_outer_classname = "UserProto";
 
-import "google/protobuf/timestamp.proto";
-
 message User {
   uint64 userId = 1;
   string userName = 2;
   int32 age = 5;
   string email = 3;
   string phone = 4;
-  google.protobuf.Timestamp createdAt = 6;
+  uint64 createdAt = 6;
 }
